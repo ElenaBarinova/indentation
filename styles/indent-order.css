@@ -1,0 +1,35 @@
+.indent-order__caption {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 30px;
+}
+
+.indent-order__box {
+  display: inline-block;
+  vertical-align: top;
+  border: none;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+
+.indent-order__box:nth-child(odd) {
+  margin-right: 0;
+}
+
+.indent-order__box:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.indent-order__box-img {
+  max-width: 560px;
+
+}
+
+.indent-order__box-text {
+  max-width: 490px;
+}
+
+.indent-order__text:not(:last-child) {
+  margin-bottom: 30px;
+}

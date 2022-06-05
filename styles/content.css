@@ -1,0 +1,12 @@
+
+.content__caption {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 30px;
+
+}
+
+.content__tex:not(:last-child) {
+  margin-bottom: 30px;
+}

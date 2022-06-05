@@ -1,0 +1,27 @@
+.nav__wrapper {
+  background: #F5f5f5;
+  border-radius: 10px;
+  padding: 25px 45px;
+}
+
+.nav__caption {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 20px;
+}
+
+.nav__list {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.nav__item {
+  color: #02535F;
+}
+
+
+.nav__link {
+  border-bottom: 1px solid ;
+
+}

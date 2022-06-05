@@ -1,0 +1,33 @@
+.last-element__caption {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 30px;
+}
+
+.last-element__text {
+  margin-bottom: 30px;
+}
+
+.last-element__box-img {
+  margin-bottom: 30px;
+}
+
+.last-element__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.last-element__figure {
+  margin-bottom: 30px;
+  border-style: solid ;
+  border-width: 1px;
+}
+
+.last-element__figcaption {
+  color: #5E5E5E;
+  padding: 15px 30px;
+
+}

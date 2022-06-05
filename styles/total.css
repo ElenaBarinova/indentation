@@ -1,0 +1,20 @@
+.total__wrapper {
+  background: #F5f5f5;
+  border-radius: 10px;
+  padding: 25px 45px;
+}
+
+.total__caption {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 20px;
+}
+
+.total__list {
+  margin-bottom: 30px;
+}
+
+.total__item:not(:last-child) {
+  margin-bottom: 10px;
+}

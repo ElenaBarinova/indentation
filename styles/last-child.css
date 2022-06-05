@@ -1,0 +1,20 @@
+.last-child__caption {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 30px;
+}
+
+.last-child__text {
+  margin-bottom: 30px;
+}
+
+.last-child__box-img:not(.last-child__box-img--margin) {
+  margin-bottom: 30px;
+}
+
+.last-child__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
