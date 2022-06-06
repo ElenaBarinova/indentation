@@ -77,24 +77,24 @@
 
         <div class="indent-order__box indent-order__box-text">
           <p class="indent-order__text">
-            <strong> Важно: </strong> <code>margin</code> всегда задают от предыдущего элемента к следующему.
+            <strong> Важно: </strong> <span>margin</span> всегда задают от предыдущего элемента к следующему.
           </p>
           <p class="indent-order__text">
-            Свойство <code>margin</code> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу,
-            поэтому используется <code>margin-right</code> и <code>margin-bottom</code>.
+            Свойство <span>margin</span> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу,
+            поэтому используется <span>margin-right</span> и <span>margin-bottom</span>.
           </p>
           <p class="indent-order__text">
-            (!) Свойства <code>margin-left</code> и <code>margin-top</code> используются крайне редко.
+            (!) Свойства <span>margin-left</span> и <span>margin-top</span> используются крайне редко.
           </p>
           <p class="indent-order__text">
-            Для <code>padding</code> верно обратное. Исключением является его применения в декоративных целях, например, для
+            Для <span>padding</span> верно обратное. Исключением является его применения в декоративных целях, например, для
                          увеличения области ссылки.
           </p>
         </div>
 
         <div class="indent-order__box indent-order__box-text">
           <p class="indent-order__text">
-            Отступ внутри блока сверху или слева реализуется через <code>padding-top</code> и <code>padding-left</code>
+            Отступ внутри блока сверху или слева реализуется через <span>padding-top</span> и <span>padding-left</span>
             родителя.
           </p>
           <p class="indent-order__text">
@@ -121,7 +121,7 @@
         </h2>
 
         <p class="last-element__text">
-          Вообще, <code>margin</code> задают исключительно между соседними элементами DOM-дерева. Для примера,
+          Вообще, <span>margin</span> задают исключительно между соседними элементами DOM-дерева. Для примера,
           посмотрите на этот список:
         </p>
 
@@ -148,7 +148,7 @@
                alt="код неупорядоченного списка, где пункт списка состоит из заголовка и параграфа и отсуп задается именно пункты списка, а не его одержимому. "
                height="427">
           <figcaption class="last-element__figcaption">
-            <strong>Важно:</strong> здесь <code>.list-item</code>— последний возможный элемент в котором мы задаём
+            <strong>Важно:</strong> здесь <span>.list-item</span>— последний возможный элемент в котором мы задаём
               отступ, чтобы разделить
                            списки.
           </figcaption>
@@ -156,7 +156,8 @@
 
 
         <p class="last-element__text">
-          Казалось бы, можно задать отступ параграфу <code>&lt;p&gt;</code>, либо обёртке <code>&lt;article&gt;</code> для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
+          Казалось бы, можно задать отступ параграфу <span>&lt;p&gt;</span>, либо обёртке <span>&lt;article&gt;</span> для
+          достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
         </p>
 
         <p class="last-element__text">
@@ -169,9 +170,9 @@
 
 
         <p class="last-element__text">
-          В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <code>section</code>. Именно
-          для него задается <code>padding-top</code>, а не <code>div</code> с классом <code>container</code>. Свойства
-          <code>margin</code>, которые стоят по умолчанию необходимо обнулить.
+          В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <span>section</span>. Именно
+          для него задается <span>padding-top</span>, а не <span>div</span> с классом <span>container</span>. Свойства
+          <span>margin</span>, которые стоят по умолчанию необходимо обнулить.
         </p>
 
         <div class="last-element__box-img">
@@ -207,11 +208,12 @@
         </div>
 
         <p class="last-child__text">
-          В соответствии со вторым принципом: последний <code>margin</code> обнуляется, а нижний отступ задаётся через
-          <code>padding</code> для <code>section</code>. Я чаще всего задаю <code>padding</code> для секции с обоих
+          В соответствии со вторым принципом: последний <span>margin</span> обнуляется, а нижний отступ задаётся
+          через
+          <span>padding</span> для <span>section</span>. Я чаще всего задаю <span>padding</span> для секции с обоих
           сторон,
-          если расстояние между секциями 100px задаю секциям <code>padding-top:50px</code> и
-          <code>margin</code> <code>padding-bottom:50px</code>.
+          если расстояние между секциями 100px задаю секциям <span>padding-top:50px</span> и
+          <span>margin</span> <span>padding-bottom:50px</span>.
         </p>
 
         <div class="last-child__box-img">
@@ -256,7 +258,7 @@
         </div>
 
         <p class="last-child__text">
-          Советую использовать псевдоклассы <code>:last-child</code> чаще других, например так:
+          Советую использовать псевдоклассы <span>:last-child</span> чаще других, например так:
         </p>
 
         <div class="last-child__box-img">
@@ -280,7 +282,7 @@
               &#8212; отступы задаём от предыдущего элемента к следующему
             </li>
             <li class="total__item">
-              &#8212; используем только <code>margin-right</code> и <code>margin-bottom</code>
+              &#8212; используем только <span>margin-right</span> и <span>margin-bottom</span>
             </li>
             <li class="total__item">
               &#8212; внешние отступы задаются только между соседями
